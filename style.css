@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Avenir Next;
+    src: url(fonts/AvenirNext-Regular-08.ttf);
+}
+
+@font-face {
+    font-family: Avenir Next Medium;
+    src: url(fonts/AvenirNext-Medium-06.ttf);
+}
+
+body {
+	font-family: Avenir Next;
+	background-color: snow;
+}
+
+p {
+	font-size: 1.3rem;
+	opacity: 70%;
+}
+
+b {
+	background: linear-gradient(350deg,rgba(0,0,0,0), #ffdee8, #dafbf1, #6725a3);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation-name: Gradient;
+    animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+
+@keyframes Gradient {
+0% {background-position: 0% 10%;}
+50% {background-position: 100% 91%;}
+100% {background-position: 0% 10%;}
+}
+
+.header {
+	padding: 4rem 3rem 0 4rem;
+	font-size: 1.5rem;
+	font-family: Avenir Next Medium;
+    position: fixed;
+    right: 7vh;
+    top: .5vh;
+}
+
+.header_tab {
+	font-size: 1rem;
+	opacity: 50%;
+	transition: 0.2s;
+}
+
+.header_tab:hover {
+	color: #dafbf1;
+	opacity: 100%;
+	animation-name: Gradient;
+	animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+	background: linear-gradient(350deg,rgba(0,0,0,0), #ffdee8, #dafbf1, #6725a3);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#name {
+	padding: 0 0rem 0 4rem;
+	font-size: 2rem;
+	font-family: Avenir Next Medium;
+}
+
+.links_main {
+	transition: 0.2s;
+}
+
+.links_main:hover {
+	color: #6725a3;
+	font-family: Avenir Next Medium;
+	opacity: 100%;
+}
+
+.links_projects {
+	transition: 0.2s;
+}
+
+.links_projects:hover {
+	color: #6725a3;
+	font-family: Avenir Next Medium;
+	opacity: 100%;
+}
+
+.page_top {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.content_container {
+	flex-direction: column;
+	justify-content: left;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    margin: auto;
+    padding: 0 4rem 0 4rem;
+}
+
+
+.page {
+	width:100vw;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_page {
+    display: flex;
+	flex-direction: column;
+	flex: 4;
+	padding: 0 0rem 0 4rem;
+}
+
+.my_face {
+	flex: 4;
+	padding: 0 4rem 0 0rem;
+	display: flex;
+	justify-content: center;
+
+}
+
+.icons {
+	flex:1;
+
+}
+
+.footer {
+	padding: 4rem 3rem 0 4rem;
+	font-size: 1.5rem;
+	font-family: Avenir Next Medium;
+    position: fixed;
+    right: 7vh;
+    bottom: 6vh;
+}
+
+.ui {
+  transition: all .25s ease;
+  z-index: 2000; }
+
