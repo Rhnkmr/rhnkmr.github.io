@@ -18,6 +18,10 @@ p {
 	opacity: 70%;
 }
 
+a {
+	text-decoration: none;
+}
+
 b {
 	background: linear-gradient(350deg,rgba(0,0,0,0), #ffdee8, #dafbf1, #6725a3);
     background-size: 600% 600%;
