@@ -11,6 +11,7 @@
 body {
 	font-family: Avenir Next;
 	background-color: snow;
+	overflow: hidden;
 }
 
 p {
